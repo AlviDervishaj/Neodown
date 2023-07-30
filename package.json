@@ -1,0 +1,19 @@
+{
+  "name": "markdown-vim",
+  "version": "1.0.0",
+  "description": "Markdown editor with vim shortcuts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AlviDervishaj/Markdown-Vim.git"
+  },
+  "keywords": [
+    "markdown",
+    "vim"
+  ],
+  "author": "Alvi Dervishaj",
+  "license": "MIT"
+}
