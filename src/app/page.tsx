@@ -1,13 +1,16 @@
+"use client";
 // Components
-import { View } from '@/components/View';
-import { Navigation } from '@/components/Navigation';
-
+import { Editor } from "@/components/Code";
+import { debounce } from "@/utils/utils";
+import { useState } from "react";
 export default function Home() {
+  const [text, setText] = useState<string>("");
   // handle shortcuts
+  const updateText = debounce((newText: string) => setText(newText), 250);
+
   return (
     <main className="home code">
-      <Navigation />
-      <View />
+      <Editor updateText={updateText} />
     </main>
   )
 }

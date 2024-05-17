@@ -62,36 +62,10 @@ h2 {
   gap: 5rem;
   justify-content: center;
 }
-
-.preview,
-.editor {
-  width: 50%;
-  height: 100%;
-  padding: 0.5rem;
-}
-
-.editor>textarea {
-  height: calc(100vh - 180px);
-}
-
-
-.editor-input {
-  background-color: #1F1D2E;
-  height: 92vh;
-  resize: none;
-  width: 100%;
-  letter-spacing: 0.05em;
-  font-size: 1.1em;
-  position: relative;
-  outline: none;
-  color: var(--primary-text);
-  caret-shape: block;
-  border: 0;
-  padding: 1.5rem;
-}
-
-.editor-input[data-mode="normal"] {
-  caret-color: #fff !important;
+.preview {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
 }
 
 input::-webkit-input-placeholder,
